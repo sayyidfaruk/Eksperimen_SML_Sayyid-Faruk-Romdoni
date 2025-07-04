@@ -35,7 +35,7 @@ def preprocess(df_raw, output_path):
 
 if __name__ == '__main__':
     input_file = './heart disease_raw.csv'
-    output_file = 'preprocessing/heart_disease_preprocessed.csv'
+    output_file = 'preprocessing/heart_disease_preprocessing.csv'
     
     try:
         raw_data = pd.read_csv(input_file, index_col=0)
